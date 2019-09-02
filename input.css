@@ -344,6 +344,7 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
 	width: 175.42px;
+	cursor: pointer;
 }
 
 .fDiscover span {
@@ -354,6 +355,7 @@ footer {
 	display: flex;
 	flex-direction: row;
     width: 580px;
+	cursor: pointer;
 }
 
 .fHosting {
@@ -363,6 +365,7 @@ footer {
 	align-items: flex-start;
 	margin-left: 50px;
 	width:154.69px;
+	cursor: pointer;
 }
 
 .fHosting span {
