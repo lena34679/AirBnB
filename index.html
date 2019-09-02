@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>AirBnB</title>
   <link rel="stylesheet" href="input.css">
+  <link href="calendar.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="calendar.js"></script>
 </head>
 <body>
 	<header>
@@ -94,7 +96,8 @@
 		<div class="rightContainer" style="margin-left: 0px;">
 		  <form action="#">
 			<div class="form_title">25$ per night</div>
-			<input class="form_input date" type="date" placeholder="Date" data-date-format="dd.mm.YYYY">
+			<input type="text" id="date" name="date" readonly="readonly" size="10" onclick="showcalendar(this)"/>
+			<!--<input class="form_input date" type="date" placeholder="Date" data-date-format="dd.mm.YYYY">-->
 			<input class="form_input guests" type="text" placeholder="Guests">
 			<button>Book</button>
 		  </form>
