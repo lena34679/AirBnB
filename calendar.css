@@ -1,0 +1,20 @@
+@font-face {
+	font-family: Roboto; 
+	src: url(font/Roboto-Bold.ttf); 
+}
+.calendar-wrapper table {background-color: #FFFFFF; color: #3D4E61; font-family: Roboto; border-collapse: collapse;}
+.calendar-wrapper table tr.day td {font-size: 10.0px; font-weight: bold; background: rgba(145, 190, 172, 0.83);}
+.calendar-wrapper table tr#first-child td {width: 0; font-size: 11px; font-weight: bold;}
+.calendar-wrapper table .lalign {text-align: left;}
+.calendar-wrapper table .ralign {text-align: right;}
+.calendar-wrapper table td {width: 25px; height: 20px; text-align: center; font-size: 15px; cursor: pointer;}
+/* button control */
+.calendar-wrapper table button {border: 1px solid #FD5C63; background: #FFFFFF; color:  #3D4E61; font-family: Courier, monospace; padding: 0px 1px; height: 20px; cursor: pointer;}
+.calendar-wrapper table tr.day td, .calendar-wrapper table tr.control td, .calendar-wrapper table button {border: none;}
+.calendar-wrapper {position: absolute; z-index: 1; left: 8px; top: 200px; display: none; border: 1px solid #E1E7ED; -webkit-box-shadow: 0 0 10px #888; -moz-box-shadow: 0 0 10px  #888; box-shadow: 0 0 10px  #888;}
+
+/* colors day */
+.calendar-wrapper .Sunday {background: #E1E7ED;}
+.calendar-wrapper .DefaultDay {background: #FFFFFF;}
+.calendar-wrapper .CurrDay {background: #FD5C63;}
+.calendar-wrapper .Select {background:  #FD5C63; color: #FFFFFF;}
